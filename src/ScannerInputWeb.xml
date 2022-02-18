@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="mendix.scannerinputweb.ScannerInputWeb" pluginWidget="true" needsEntityContext="true" offlineCapable="true"
+        supportedPlatform="Web"
+        xmlns="http://www.mendix.com/widget/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+    <name>Scanner Input Web</name>
+    <description>An input box to trigger events from a scanned or manually entered input</description>
+    <icon/>
+    <properties>
+        <propertyGroup caption="General">
+           <property key="attribute" type="attribute" required="false">
+             <caption>Attribute</caption>
+             <description></description>
+             <attributeTypes>
+               <attributeType name="String" />
+             </attributeTypes>
+           </property>
+           <property key="action" type="action">
+             <caption>On Scan or Enter</caption>
+             <description></description>
+           </property>
+        </propertyGroup>
+    </properties>
+</widget>
